@@ -65,7 +65,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: run nativelink
         run: |
-          cargo install nativelink --git https://github.com/TraceMachina/nativelink --tag v0.7.0
+          cargo install nativelink --git https://github.com/TraceMachina/nativelink --tag v1.7.7
           (nativelink test/basic_cas.json &)
       - name: remote execution
         run: |
